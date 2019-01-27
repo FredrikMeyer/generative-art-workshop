@@ -1,0 +1,23 @@
+* Generativ kunst-workshop
+
+** Lenker
+   Motiverende video: [[https://www.youtube.com/watch?v=4Se0_w0ISYk][Generative Art speedrun]].
+
+** Workshop
+*** Steg 1
+    Se videoen over.
+*** Steg 2
+    ?????
+
+** Ressurser
+   1. [[http://p5js.org/reference/][p5.js dokumentasjon]].
+   2. [[https://www.youtube.com/user/shiffman/videos][Coding Train på YouTube]].
+   3. [[https://github.com/terkelg/awesome-creative-coding][Awesome Creative Coding]]. Et gigantisk kaninhull av interessante lenker.
+
+** Inspirasjon
+   1. [[https://github.com/wholepixel/solving-sol][Solving Sol]]. Enkle beskrivelser av kunstverk som kan lages 
+
+** Noen av mine favorittkunstnere
+   - [[https://inconvergent.net/][inconvergent]]. Anders Hoff.
+   - [[http://www.tylerlhobbs.com/][Tyler Hobbs]]. Han holdt et veldig bra [[https://www.youtube.com/watch?v=5R9eywArFTE][foredrag]] på Strange Loop 2017.
+   - [[https://www.kovach.me][Benjamin Kovach]]. Også han holdt et bra [[foredrag][foredrag]] på Strange Loop 2018. 

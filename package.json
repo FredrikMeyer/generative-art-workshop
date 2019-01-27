@@ -1,0 +1,19 @@
+{
+    "name": "workshop-generative",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "browser-sync start --server -f -w",
+        "new-sketchg": "./new_sketch.sh"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "p5": "^0.7.3"
+    },
+    "devDependencies": {
+        "browser-sync": "^2.26.3"
+    }
+}
