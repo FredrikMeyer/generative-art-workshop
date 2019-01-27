@@ -1,6 +1,13 @@
 * Generativ kunst-workshop
 
-** Lenker
+** Hva er generativ kunst?
+
+#+BEGIN_QUOTE
+"art programmed using a computer that intentionally introduces randomness as part of its creation process"
+#+END_QUOTE>
+
+
+
    Motiverende video: [[https://www.youtube.com/watch?v=4Se0_w0ISYk][Generative Art speedrun]].
 
 ** Workshop
