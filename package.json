@@ -5,8 +5,9 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "budo ./noise_flow/sketch.js --dir ./noise_flow --live",
-        "new-sketchg": "./new_sketch.sh"
+        "start": "budo ./noise_flow/index.js --dir ./noise_flow --live",
+        "flow-lines": "budo ./noise_flow/index.js --dir ./noise_flow --live",
+        "new-sketch": "./new_sketch.sh"
     },
     "author": "",
     "license": "ISC",
