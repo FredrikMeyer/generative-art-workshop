@@ -5,15 +5,16 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "browser-sync start --server -f -w",
+        "start": "budo ./noise_flow/sketch.js --dir ./noise_flow --live",
         "new-sketchg": "./new_sketch.sh"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "p5": "^0.7.3"
+        "p5": "^0.7.3",
+        "simplex-noise": "^2.4.0"
     },
     "devDependencies": {
-        "browser-sync": "^2.26.3"
+        "budo": "^11.6.0"
     }
 }

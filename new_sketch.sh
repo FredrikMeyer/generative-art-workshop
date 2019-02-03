@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if [ -z "$1"]
+if [ -z "$1" ]
 then
   echo "Please provide a folder name."
 else
