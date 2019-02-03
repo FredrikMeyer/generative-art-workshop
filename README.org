@@ -23,7 +23,10 @@
     Åpne [[https://sighack.com/post/seventy-five-ways-to-draw-a-circle][denne linken]]. Oppdraget er nå følgende: den endelige formen skal være en sirkel, men vær kreativ i hvordan du lager den. Se lenka for inspirasjon. 
 *** Steg 4A ("litt vanskeligere")
     En gjenganger i generativ kunst er å bruke partikkelsystemer og fysikk til å lage pene bilder. Etter litt eksperimentering lagde jeg dette bildet:
-    [[file:flow_lines.png][Flow-linjer]].
+
+#+ATTR_HTML: title="Flow-linjer" :style margin-left: auto; margin-right: auto; :width: 50%
+[[flow_lines.png]]
+
     Bildet er laget ved å putte en haug med partikler i et vektorfelt. Se [[https://codepen.io/DonKarlssonSan/pen/QqzWYj][her]] for et annet eksempel.
 
     Gjenbruk koden og skriv om koden i =./noise_flow/index.js= over for å lage andre kule bilder.
