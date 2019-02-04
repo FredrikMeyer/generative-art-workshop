@@ -18,7 +18,7 @@ function createVectorField(step, t) {
             // let angle = simplex.noise3D(x / 30, y / 30, t) * 2 * Math.PI;
             // let magnitude = simplex.noise3D(x / 20  + 300, y / 20 + 400, n
             // field[x][y] = p5.Vector.fromAngle(angle, magnitude * 0.1);
-            field[x][y] = new p5.Vector(0.1, Math.sin(x*x*w*w + y*y*h*h)*0.1);
+            field[x][y] = new p5.Vector(0.05, Math.sin(x*x*w*w + y*y*h*h)*0.05);
         }
     }
 
@@ -88,7 +88,7 @@ const sketch = function(s) {
         vectorField = createVectorField(step, t/10);
         t += 1;
 
-        if (t % 2000 === 0) {
+        if (t % 5000 === 0) {
             s.noLoop();
             console.log("Done");
         }
@@ -109,7 +109,7 @@ const sketch = function(s) {
             const [x, y] = [p.pos.x, p.pos.y];
             s.noStroke();
             s.fill(Math.sin(s.noise(t/10))*20+60, 70, 100, p.lifeTime/8+20);
-            s.ellipse(x, y, 2, 2);
+            s.ellipse(x, y, 1, 1);
 
             // Move along field
             const pos = p.pos;

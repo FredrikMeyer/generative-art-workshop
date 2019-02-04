@@ -20,23 +20,26 @@
     #+end_src
     Dette starter en hot reload-server som du kan eksperimentere med. Åpne filen =./kult-navn/sketch.js= i din favoritt-editor. Åpne =./reference/index.html= i nettleseren for eksempel på hvordan kommandoer i =p5.js=  brukes.
 *** Steg 3 ("lett")
-    Åpne [[https://sighack.com/post/seventy-five-ways-to-draw-a-circle][denne linken]]. Oppdraget er nå følgende: den endelige formen skal være en sirkel, men vær kreativ i hvordan du lager den. Se lenka for inspirasjon. 
+    Åpne [[https://sighack.com/post/seventy-five-ways-to-draw-a-circle][denne linken]]. Oppdraget er nå følgende: den endelige formen skal være en sirkel, men vær kreativ i hvordan du lager den. Se lenka for inspirasjon. Sett av en time til dette - eller så lenge du vil.  
 *** Steg 4A ("litt vanskeligere")
     En gjenganger i generativ kunst er å bruke partikkelsystemer og fysikk til å lage pene bilder. Etter litt eksperimentering lagde jeg dette bildet:
 
-#+ATTR_HTML: title="Flow-linjer" :style margin-left: auto; margin-right: auto; :width: 50%
+#+ATTR_HTML: title="Flow-linjer" :style margin-left: auto; margin-right: auto; :width: 200px
 [[flow_lines.png]]
 
     Bildet er laget ved å putte en haug med partikler i et vektorfelt. Se [[https://codepen.io/DonKarlssonSan/pen/QqzWYj][her]] for et annet eksempel.
 
-    Gjenbruk koden og skriv om koden i =./noise_flow/index.js= over for å lage andre kule bilder.
+    Gjenbruk og skriv om koden i =./noise_flow/index.js= over for å lage andre kule bilder.
 *** Steg 4B 
-    Gjenskap noe geometrisk kunst fra [[https://www.google.com/search?tbm=isch&q=geometric+art&chips=q:geometric+art,g_1:simple:WhxO8Nzgg3E%253D&usg=AI4_-kTftX2IIwIiX2W9zro7bB1PUelbYQ&sa=X&ved=0ahUKEwjt9aa6vaDgAhUNhqYKHX6CAIgQ4lYILCgC&biw=1280&bih=1258&dpr=1][Google-søket "geometric art"]]. Gjør det om til generativ kunst ved å legge til tilfeldighet og gjenta  operasjonene mange ganger (husk å sette lav gjennomsiktighet).
+    Gjenskap noe geometrisk kunst fra [[https://www.google.com/search?tbm=isch&q=geometric+art&chips=q:geometric+art,g_1:simple:WhxO8Nzgg3E%253D&usg=AI4_-kTftX2IIwIiX2W9zro7bB1PUelbYQ&sa=X&ved=0ahUKEwjt9aa6vaDgAhUNhqYKHX6CAIgQ4lYILCgC&biw=1280&bih=1258&dpr=1][Google-søket "geometric art"]]. Gjør det om til generativ kunst ved å legge til tilfeldighet og gjenta operasjonene mange ganger (husk å sette lav gjennomsiktighet).
 
+*** ... og så videre
+
+    Generativ kunst er utrolig mye. Vi har bare eksperimentert pittelitt: det går an å lage generativ musikk, objekter (3D-printing?!), dataverdener, og så videre. Det beste stedet for inspirasjon og kaninhull er som vanlig Reddit.
 
 ** Ressurser
    1. [[http://p5js.org/reference/][p5.js dokumentasjon]].
-   2. [[https://www.youtube.com/user/shiffman/videos][Coding Train på YouTube]].
+   2. [[https://www.youtube.com/user/shiffman/videos][Coding Train på YouTube]]. UTROLIG mye bra. Sjekk også boka: [[https://natureofcode.com/][Nature of Code]].
    3. [[https://github.com/terkelg/awesome-creative-coding][Awesome Creative Coding]]. Et gigantisk kaninhull av interessante lenker.
    4. [[https://reddit.com/r/generative][/r/generative]]. Reddit har mye bra.
 
