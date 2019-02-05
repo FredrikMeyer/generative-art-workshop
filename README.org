@@ -9,6 +9,8 @@
 ** Workshop
 *** Steg 1
     Se videoen over. Motiverende video: [[https://www.youtube.com/watch?v=4Se0_w0ISYk][Generative Art speedrun]].
+
+    Gå gjennom =./reference/sketch.s= for å se hvordan =p5.js= fungerer. Å lese [[http://p5js.org/get-started/][Getting Started]] tar også bare 1-2 minutter.
 *** Steg 2
     Kjør
     #+begin_src bash

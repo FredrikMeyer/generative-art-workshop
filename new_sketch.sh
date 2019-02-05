@@ -11,4 +11,4 @@ else
 fi
 
 
-./node_modules/budo/bin/cmd.js ./$1/index.js --dir ./$1 --live",
+./node_modules/budo/bin/cmd.js ./$1/index.js --dir ./$1 --live

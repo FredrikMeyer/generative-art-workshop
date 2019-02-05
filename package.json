@@ -1,7 +1,7 @@
 {
     "name": "workshop-generative",
     "version": "1.0.0",
-    "description": "",
+    "description": "A workshop in generative art.",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,8 +9,12 @@
         "flow-lines": "budo ./noise_flow/index.js --dir ./noise_flow --live",
         "new-sketch": "./new_sketch.sh"
     },
-    "author": "",
-    "license": "ISC",
+    "author": "Fredrik Meyer",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/FredrikMeyer/generative-art-workshop"
+    },
+    "license": "MIT",
     "dependencies": {
         "p5": "^0.7.3",
         "simplex-noise": "^2.4.0"
