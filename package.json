@@ -17,7 +17,7 @@
     "license": "MIT",
     "dependencies": {
         "p5": "^0.7.3",
-        "simplex-noise": "^2.4.0"
+        "simplex-noise": "^4.0.0"
     },
     "devDependencies": {
         "budo": "^11.7.0"
