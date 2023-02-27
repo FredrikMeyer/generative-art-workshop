@@ -16,7 +16,7 @@
     },
     "license": "MIT",
     "dependencies": {
-        "p5": "^1.4.2",
+        "p5": "^1.6.0",
         "simplex-noise": "^4.0.0"
     },
     "devDependencies": {
